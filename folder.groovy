@@ -21,6 +21,6 @@ listView('GERF-Project') {
 
     jobs {
         name('GERF-DEV')
-        //name('GERF-QA')
+        name('GERF-QA')
     }
 }
