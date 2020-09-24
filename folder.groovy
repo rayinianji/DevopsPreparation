@@ -6,7 +6,6 @@ folder('GERF-QA') {
     displayName('GERF-QA')
     description('Folder for project GERF-QA')
 }
-listVi
 listView('GERF-Project') {
     description('All unstable jobs for project GERF')
     columns {
