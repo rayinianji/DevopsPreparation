@@ -7,6 +7,7 @@ folder('GERF-QA') {
     description('Folder for project GERF-QA')
 }
 listView('GERF-Project') {
+
     description('All unstable jobs for project GERF')
     columns {
         status()
@@ -20,6 +21,6 @@ listView('GERF-Project') {
 
     jobs {
         name('GERF-DEV')
-        name('GERF-QA')
+        //name('GERF-QA')
     }
 }
