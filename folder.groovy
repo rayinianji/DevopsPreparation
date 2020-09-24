@@ -13,4 +13,9 @@ listView('GERF-Project') {
         lastDuration()
         buildButton()
     }
+
+    jobs {
+        name('GERF-DEV/build')
+        name('GERF-DEV/test')
+    }
 }
