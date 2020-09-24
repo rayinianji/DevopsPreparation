@@ -1,4 +1,4 @@
-job('GERF-QA/gerf-qa-ci') {
+job('GERF-QA/gerf-ci') {
     scm {
         git {
 		
