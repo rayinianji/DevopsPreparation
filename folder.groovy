@@ -1,9 +1,14 @@
 folder('GERF-DEV') {
-    displayName('ABC')
-    description('Folder for project ABC')
+    displayName('GERF-DEV')
+    description('Folder for project GERF-DEV')
 }
+folder('GERF-QA') {
+    displayName('GERF-QA')
+    description('Folder for project GERF-QA')
+}
+listVi
 listView('GERF-Project') {
-    description('All unstable jobs for project ABC')
+    description('All unstable jobs for project GERF')
     columns {
         status()
         weather()
@@ -15,7 +20,7 @@ listView('GERF-Project') {
     }
 
     jobs {
-        name('GERF-DEV/build')
-        name('GERF-DEV/test')
+        name('GERF-DEV')
+        name('GERF-QA')
     }
 }
