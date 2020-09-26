@@ -1,14 +1,11 @@
-folder('GERF-DEV') {
-    displayName('GERF-DEV')
-    description('Folder for project GERF-DEV')
+folder('Gradle-Web') {
+    displayName('Gradle-Web')
+    description('Folder for project SpringBoot')
 }
-folder('GERF-QA') {
-    displayName('GERF-QA')
-    description('Folder for project GERF-QA')
-}
-listView('GERF-Project') {
 
-    description('All unstable jobs for project GERF')
+listView('SPRINTBOOT-WEB') {
+
+    description('All Stable jobs for project spring boot web')
     columns {
         status()
         weather()
@@ -20,7 +17,6 @@ listView('GERF-Project') {
     }
 
     jobs {
-        name('GERF-DEV')
-        name('GERF-QA')
-    }
+        name('Springboot-web')
+         }
 }
