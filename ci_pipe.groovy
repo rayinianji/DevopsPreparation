@@ -1,4 +1,6 @@
-Node{
+#!groovy
+
+node {
 
     stage('CheckOut code from SCM')
     {
