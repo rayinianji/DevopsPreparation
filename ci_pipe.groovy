@@ -1,14 +1,11 @@
 #!groovy
-node {
-       
-    stage('CheckOut code from SCM')
-    {
-        echo " Pulling the code for git SCM"
+pipeline {
+    agent any 
+    stages {
+        stage('Stage 1') {
+            steps {
+                echo 'Hello world!' 
+            }
+        }
     }
-    
-    stage('Building the code')
-    {
-        echo " Building the project"
-    }
-    
 }
