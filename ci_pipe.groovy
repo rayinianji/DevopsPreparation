@@ -1,4 +1,5 @@
-node{
+Node{
+
     stage('CheckOut code from SCM')
     {
         echo " Pulling the code for git SCM"
