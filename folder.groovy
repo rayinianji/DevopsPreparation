@@ -1,4 +1,4 @@
-folder('Gradle-Web') {
+folder('Springboot-web') {
     displayName('Gradle-Web')
     description('Folder for project SpringBoot')
 }
