@@ -1,0 +1,5 @@
+applications:
+- name: sample_app
+  memory: 768M
+  random-route: true
+  path: ./build/libs/gradle-web-app.war

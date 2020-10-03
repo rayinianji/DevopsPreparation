@@ -23,11 +23,13 @@ pipeline {
          
             }
         } 
-        stage ('Deplyoing the in to tomcat server')
+        stage ('Deplyoing to PCF Dev')
         {
             steps
             {
-            echo 'Deplyoing the jar in tomocat server on the way....'   
+            echo 'Deplyoing in to the PCF'
+            pushToCloudFoundry cloudSpace: 'development', credentialsId: 'PCF_dev_id', organization: 'TechSol', target: 'https://api.run.pivotal.io'  
+            
             }
             
         }
