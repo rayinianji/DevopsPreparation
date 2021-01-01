@@ -3,7 +3,7 @@ folder('DevApp') {
     description('Folder for project SpringBoot')
 }
 
-listView('GERF-App') {
+listView('GERF-APP') {
 
     description('All Stable jobs for project spring boot web')
     columns {

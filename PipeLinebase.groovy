@@ -1,4 +1,4 @@
-pipelineJob('Tecsol') {
+pipelineJob('DevApp/ci-deploy') {
     
     definition {
         cps {
