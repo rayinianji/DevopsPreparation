@@ -17,6 +17,6 @@ listView('GERF-APP') {
     }
 
     jobs {
-        name('DevApp/ci-deploy')
+        name('DevApp')
          }
 }
