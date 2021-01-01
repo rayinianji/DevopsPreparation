@@ -1,9 +1,9 @@
-folder('Springboot-web') {
-    displayName('Gradle-Web')
+folder('DevApp') {
+    displayName('GERF-DEV')
     description('Folder for project SpringBoot')
 }
 
-listView('TechBoy') {
+listView('GERF-App') {
 
     description('All Stable jobs for project spring boot web')
     columns {
@@ -17,6 +17,6 @@ listView('TechBoy') {
     }
 
     jobs {
-        name('Springboot-web')
+        name('DevApp/ci-deploy')
          }
 }
