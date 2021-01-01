@@ -1,4 +1,4 @@
-pipelineJob('Springboot-web/ci-deploy') {
+pipelineJob('Tecsol') {
     
     definition {
         cps {

@@ -3,7 +3,7 @@ folder('Springboot-web') {
     description('Folder for project SpringBoot')
 }
 
-listView('TechSol') {
+listView('TechBoy') {
 
     description('All Stable jobs for project spring boot web')
     columns {
@@ -16,4 +16,7 @@ listView('TechSol') {
         buildButton()
     }
 
-    }
+    jobs {
+        name('Springboot-web')
+         }
+}
