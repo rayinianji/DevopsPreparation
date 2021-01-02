@@ -1,2 +1,2 @@
-folder('$AppName') {
+folder("$AppName") {
     }
